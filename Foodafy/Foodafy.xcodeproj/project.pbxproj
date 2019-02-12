@@ -13,6 +13,7 @@
 		4B67EDC12212B10900E7983F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B67EDBF2212B10900E7983F /* LaunchScreen.storyboard */; };
 		4B67EDC92212C72200E7983F /* LoginTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B67EDC82212C72200E7983F /* LoginTextField.swift */; };
 		4B67EDCD2212CC1C00E7983F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B67EDCC2212CC1C00E7983F /* Main.storyboard */; };
+		4B67EDCF2213591200E7983F /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B67EDCE2213591200E7983F /* Food.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4B67EDC22212B10900E7983F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B67EDC82212C72200E7983F /* LoginTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTextField.swift; sourceTree = "<group>"; };
 		4B67EDCC2212CC1C00E7983F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		4B67EDCE2213591200E7983F /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				4B67EDB82212B10800E7983F /* ViewController.swift */,
 				4B67EDC82212C72200E7983F /* LoginTextField.swift */,
 				4B67EDCC2212CC1C00E7983F /* Main.storyboard */,
+				4B67EDCE2213591200E7983F /* Food.swift */,
 				4B67EDBD2212B10900E7983F /* Assets.xcassets */,
 				4B67EDBF2212B10900E7983F /* LaunchScreen.storyboard */,
 				4B67EDC22212B10900E7983F /* Info.plist */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B67EDC92212C72200E7983F /* LoginTextField.swift in Sources */,
+				4B67EDCF2213591200E7983F /* Food.swift in Sources */,
 				4B67EDB92212B10800E7983F /* ViewController.swift in Sources */,
 				4B67EDB72212B10800E7983F /* AppDelegate.swift in Sources */,
 			);
