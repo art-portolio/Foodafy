@@ -5,4 +5,4 @@
     <img src="https://img.shields.io/badge/Swift-4.2-brightgreen.svg" />
 </p>
 
-![alt text](https://imgur.com/a/noUFSDN)
+[Imgur](https://i.imgur.com/Y0wSsqz.png)
