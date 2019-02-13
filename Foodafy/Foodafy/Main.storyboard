@@ -165,7 +165,7 @@
                                 </state>
                             </button>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="xzs-oS-vbL">
-                                <rect key="frame" x="16" y="87" width="343" height="493"/>
+                                <rect key="frame" x="0.0" y="87" width="375" height="493"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="BPr-IY-g6K">
                                     <size key="itemSize" width="200" height="400"/>
@@ -230,11 +230,11 @@
                             <constraint firstAttribute="trailing" secondItem="3Kn-Uf-b0a" secondAttribute="trailing" constant="16" id="N25-by-4sT"/>
                             <constraint firstItem="Yhb-KT-VaA" firstAttribute="top" secondItem="efN-fT-L7w" secondAttribute="bottom" constant="16" id="R7v-Vc-jnE"/>
                             <constraint firstAttribute="trailing" secondItem="ZsM-RO-LV6" secondAttribute="trailing" constant="16" id="X56-r7-fKq"/>
-                            <constraint firstItem="xzs-oS-vbL" firstAttribute="leading" secondItem="EZD-Ej-fcL" secondAttribute="leading" constant="16" id="XTu-1g-bY2"/>
+                            <constraint firstItem="xzs-oS-vbL" firstAttribute="leading" secondItem="EZD-Ej-fcL" secondAttribute="leading" id="XTu-1g-bY2"/>
                             <constraint firstItem="F8z-3z-lOZ" firstAttribute="top" secondItem="NYN-qg-dye" secondAttribute="bottom" constant="16" id="aH0-nt-nZs"/>
                             <constraint firstAttribute="trailing" secondItem="NYN-qg-dye" secondAttribute="trailing" constant="16" id="f8n-Fy-JIp"/>
                             <constraint firstItem="8p3-QU-Ufq" firstAttribute="leading" secondItem="EZD-Ej-fcL" secondAttribute="leading" constant="16" id="g71-H9-eto"/>
-                            <constraint firstAttribute="trailing" secondItem="xzs-oS-vbL" secondAttribute="trailing" constant="16" id="glc-Tu-o3Y"/>
+                            <constraint firstAttribute="trailing" secondItem="xzs-oS-vbL" secondAttribute="trailing" id="glc-Tu-o3Y"/>
                             <constraint firstItem="8p3-QU-Ufq" firstAttribute="top" secondItem="xzs-oS-vbL" secondAttribute="bottom" constant="41" id="iw0-Vt-dg2"/>
                             <constraint firstItem="ZsM-RO-LV6" firstAttribute="leading" secondItem="EZD-Ej-fcL" secondAttribute="leading" constant="16" id="juA-DQ-78G"/>
                             <constraint firstItem="xzs-oS-vbL" firstAttribute="top" secondItem="Yhb-KT-VaA" secondAttribute="bottom" constant="8" id="n5R-EF-E4Y"/>
