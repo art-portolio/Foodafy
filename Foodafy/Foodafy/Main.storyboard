@@ -118,10 +118,10 @@
             </objects>
             <point key="canvasLocation" x="-124" y="155"/>
         </scene>
-        <!--View Controller-->
+        <!--Food View Controller-->
         <scene sceneID="sMr-EI-m9j">
             <objects>
-                <viewController id="pim-Cr-tIo" sceneMemberID="viewController">
+                <viewController id="pim-Cr-tIo" customClass="FoodViewController" customModule="Foodafy" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="efN-fT-L7w"/>
                         <viewControllerLayoutGuide type="bottom" id="F8z-3z-lOZ"/>
@@ -174,7 +174,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="20" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="UvQ-1F-cL8" customClass="FoodCollectionViewCell" customModule="Foodafy" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="FoodCell" id="UvQ-1F-cL8" customClass="FoodCollectionViewCell" customModule="Foodafy" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="46.5" width="200" height="400"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -241,6 +241,9 @@
                             <constraint firstItem="ZsM-RO-LV6" firstAttribute="top" secondItem="Yhb-KT-VaA" secondAttribute="bottom" constant="8" id="xIN-Bl-uIc"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="collectionView" destination="xzs-oS-vbL" id="SR6-Hp-xm2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qxr-kR-gOw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

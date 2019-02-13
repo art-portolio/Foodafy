@@ -15,6 +15,7 @@
 		4B67EDCD2212CC1C00E7983F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B67EDCC2212CC1C00E7983F /* Main.storyboard */; };
 		4B67EDCF2213591200E7983F /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B67EDCE2213591200E7983F /* Food.swift */; };
 		4B67EDD12214760500E7983F /* FoodCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B67EDD02214760500E7983F /* FoodCollectionViewCell.swift */; };
+		4B67EDD32214857400E7983F /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B67EDD22214857400E7983F /* FoodViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		4B67EDCC2212CC1C00E7983F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		4B67EDCE2213591200E7983F /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
 		4B67EDD02214760500E7983F /* FoodCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCollectionViewCell.swift; sourceTree = "<group>"; };
+		4B67EDD22214857400E7983F /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				4B67EDB82212B10800E7983F /* ViewController.swift */,
 				4B67EDC82212C72200E7983F /* LoginTextField.swift */,
 				4B67EDCC2212CC1C00E7983F /* Main.storyboard */,
+				4B67EDD22214857400E7983F /* FoodViewController.swift */,
 				4B67EDD02214760500E7983F /* FoodCollectionViewCell.swift */,
 				4B67EDCE2213591200E7983F /* Food.swift */,
 				4B67EDBD2212B10900E7983F /* Assets.xcassets */,
@@ -144,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B67EDD32214857400E7983F /* FoodViewController.swift in Sources */,
 				4B67EDD12214760500E7983F /* FoodCollectionViewCell.swift in Sources */,
 				4B67EDC92212C72200E7983F /* LoginTextField.swift in Sources */,
 				4B67EDCF2213591200E7983F /* Food.swift in Sources */,
