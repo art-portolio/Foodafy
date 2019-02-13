@@ -174,7 +174,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="20" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="UvQ-1F-cL8">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="UvQ-1F-cL8" customClass="FoodCollectionViewCell" customModule="Foodafy" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="46.5" width="200" height="400"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -213,6 +213,11 @@
                                             <constraint firstItem="cJU-1D-SwB" firstAttribute="top" secondItem="UvQ-1F-cL8" secondAttribute="top" id="doe-MU-EpL"/>
                                             <constraint firstItem="Qxw-AT-coQ" firstAttribute="leading" secondItem="UvQ-1F-cL8" secondAttribute="leading" id="r3Q-hr-E5R"/>
                                         </constraints>
+                                        <connections>
+                                            <outlet property="backgroundColorView" destination="cJU-1D-SwB" id="56m-UP-c2W"/>
+                                            <outlet property="featuredImageView" destination="Qxw-AT-coQ" id="Y8J-oJ-Izd"/>
+                                            <outlet property="foodTitleLabel" destination="Tm3-r9-gi7" id="w0k-SL-egs"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
