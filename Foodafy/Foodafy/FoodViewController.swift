@@ -7,15 +7,29 @@
 //
 
 import UIKit
+import Firebase
 
 class FoodViewController: UIViewController {
     
     @IBOutlet weak var collectionView: UICollectionView!
     @IBOutlet weak var profileImageView: UIImageView!
     
-    
     var food = Food.fetchFoodPhotos()
     let cellScaling: CGFloat = 0.6
+    
+    
+    @IBAction func logOutAction(_ sender: Any) {
+        do {
+            try Auth.auth().signOut()
+        }
+        catch let signOutError as NSError {
+            print ("Error signing out: %@", signOutError)
+        }
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let initial = storyboard.instantiateInitialViewController()
+        UIApplication.shared.keyWindow?.rootViewController = initial
+    }  
     
     override func viewDidLoad() {
         super.viewDidLoad()

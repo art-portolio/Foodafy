@@ -136,7 +136,7 @@
                         <outlet property="email" destination="sE4-CX-GsB" id="OmA-JD-puh"/>
                         <outlet property="password" destination="hMa-b1-Vzn" id="bFT-00-FaI"/>
                         <outlet property="passwordConfirm" destination="qFO-hs-ggb" id="Udl-RB-lmW"/>
-                        <segue destination="pim-Cr-tIo" kind="show" id="POG-fk-wAE"/>
+                        <segue destination="pim-Cr-tIo" kind="show" identifier="signupToHome" id="POG-fk-wAE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Np2-nO-BBp" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -323,7 +323,7 @@
                         <outlet property="email" destination="YHk-IY-hIb" id="W7d-ab-xbH"/>
                         <outlet property="password" destination="VFZ-2Y-3Yk" id="qQP-3E-C3B"/>
                         <outlet property="passwordButton" destination="XHl-Hw-7si" id="R1z-F1-Q4g"/>
-                        <segue destination="pim-Cr-tIo" kind="show" id="6Vs-lv-Xzs"/>
+                        <segue destination="pim-Cr-tIo" kind="show" identifier="loginToHome" id="6Vs-lv-Xzs"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -370,11 +370,14 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NYN-qg-dye">
-                                <rect key="frame" x="275" y="621" width="84" height="30"/>
+                                <rect key="frame" x="306" y="621" width="53" height="30"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="15"/>
-                                <state key="normal" title="Edit Profile">
+                                <state key="normal" title="Logout">
                                     <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="logOutAction:" destination="pim-Cr-tIo" eventType="touchUpInside" id="oWi-rF-KyL"/>
+                                </connections>
                             </button>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="xzs-oS-vbL">
                                 <rect key="frame" x="0.0" y="87" width="375" height="493"/>
@@ -490,6 +493,6 @@
         <image name="profileImage" width="720" height="720"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="POG-fk-wAE"/>
+        <segue reference="6Vs-lv-Xzs"/>
     </inferredMetricsTieBreakers>
 </document>
