@@ -3,7 +3,7 @@
 <p>
     <img src="https://img.shields.io/badge/iOS-12.0+-blue.svg" />
     <img src="https://img.shields.io/badge/Swift-4.2-brightgreen.svg" />
-    <a href="https://twitter.com/twostraws">
+    <a href="https://twitter.com/paulcharlesyi">
         <img src="https://img.shields.io/badge/Contact-@paulcharlesyi-lightgrey.svg?style=flat" alt="Twitter: @paulcharlesyi" />
     </a>
 </p>
