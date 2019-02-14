@@ -31,6 +31,9 @@
                                 <state key="normal" title="SIGNUP">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="pim-Cr-tIo" kind="show" id="d2W-kc-xjo"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="bottom" text="Tim Cook" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qFO-hs-ggb" userLabel="Retype Text Field" customClass="LoginTextField" customModule="Foodafy" customModuleProvider="target">
                                 <rect key="frame" x="61" y="366" width="253" height="50"/>
@@ -132,12 +135,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Np2-nO-BBp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2384.8000000000002" y="653.52323838080963"/>
+            <point key="canvasLocation" x="2385" y="803"/>
         </scene>
-        <!--View Controller-->
+        <!--Start View Controller-->
         <scene sceneID="SRq-cy-Ew2">
             <objects>
-                <viewController id="uhw-4q-U97" sceneMemberID="viewController">
+                <viewController id="uhw-4q-U97" customClass="StartViewController" customModule="Foodafy" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="OOI-rC-xs9"/>
                         <viewControllerLayoutGuide type="bottom" id="Jyp-Ua-5to"/>
@@ -192,10 +195,14 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Ler-KK-06b"/>
+                    <connections>
+                        <outlet property="titleLabel" destination="Fdf-o7-Yeg" id="k7U-nn-OP6"/>
+                        <segue destination="pim-Cr-tIo" kind="show" id="lHa-Mj-qgm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5oK-E1-016" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1517.5999999999999" y="304.4977511244378"/>
+            <point key="canvasLocation" x="1522" y="381"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -444,7 +451,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qxr-kR-gOw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3166" y="304"/>
+            <point key="canvasLocation" x="3284" y="381"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="CwK-6s-Rdy">
@@ -461,7 +468,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JvA-6g-HfS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="756" y="304"/>
+            <point key="canvasLocation" x="761" y="381"/>
         </scene>
     </scenes>
     <resources>
@@ -473,4 +480,7 @@
         <image name="loginBGCard" width="367" height="477"/>
         <image name="profileImage" width="720" height="720"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="lHa-Mj-qgm"/>
+    </inferredMetricsTieBreakers>
 </document>
