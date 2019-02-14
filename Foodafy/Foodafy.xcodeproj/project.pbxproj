@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B1F0203221624CB00EF3856 /* UserPhotosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1F0202221624CB00EF3856 /* UserPhotosTableViewController.swift */; };
+		4B1F02052216252900EF3856 /* PhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1F02042216252900EF3856 /* PhotoDetailViewController.swift */; };
 		4B67EDB72212B10800E7983F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B67EDB62212B10800E7983F /* AppDelegate.swift */; };
 		4B67EDB92212B10800E7983F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B67EDB82212B10800E7983F /* LoginViewController.swift */; };
 		4B67EDBE2212B10900E7983F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B67EDBD2212B10900E7983F /* Assets.xcassets */; };
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		085441FF2B0389F15FEFBBF0 /* Pods-Foodafy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foodafy.debug.xcconfig"; path = "Target Support Files/Pods-Foodafy/Pods-Foodafy.debug.xcconfig"; sourceTree = "<group>"; };
 		173D38CCC7A9ABAF7766984B /* Pods-Foodafy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foodafy.release.xcconfig"; path = "Target Support Files/Pods-Foodafy/Pods-Foodafy.release.xcconfig"; sourceTree = "<group>"; };
+		4B1F0202221624CB00EF3856 /* UserPhotosTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPhotosTableViewController.swift; sourceTree = "<group>"; };
+		4B1F02042216252900EF3856 /* PhotoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewController.swift; sourceTree = "<group>"; };
 		4B67EDB32212B10800E7983F /* Foodafy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foodafy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B67EDB62212B10800E7983F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B67EDB82212B10800E7983F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +58,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B1F020122157A0600EF3856 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4B67EDCE2213591200E7983F /* Food.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		4B67EDAA2212B10700E7983F = {
 			isa = PBXGroup;
 			children = (
@@ -75,15 +87,17 @@
 		4B67EDB52212B10800E7983F /* Foodafy */ = {
 			isa = PBXGroup;
 			children = (
+				4B1F020122157A0600EF3856 /* Model */,
 				4B67EDB62212B10800E7983F /* AppDelegate.swift */,
 				4B67EDB82212B10800E7983F /* LoginViewController.swift */,
 				4B67EDDA2215604800E7983F /* StartViewController.swift */,
 				4B67EDC82212C72200E7983F /* LoginTextField.swift */,
 				4B67EDCC2212CC1C00E7983F /* Main.storyboard */,
+				4B1F02042216252900EF3856 /* PhotoDetailViewController.swift */,
+				4B1F0202221624CB00EF3856 /* UserPhotosTableViewController.swift */,
 				4B67EDD822154CB300E7983F /* SignupViewController.swift */,
 				4B67EDD22214857400E7983F /* FoodViewController.swift */,
 				4B67EDD02214760500E7983F /* FoodCollectionViewCell.swift */,
-				4B67EDCE2213591200E7983F /* Food.swift */,
 				4B67EDBD2212B10900E7983F /* Assets.xcassets */,
 				4B67EDBF2212B10900E7983F /* LaunchScreen.storyboard */,
 				4B67EDC22212B10900E7983F /* Info.plist */,
@@ -106,7 +120,6 @@
 				085441FF2B0389F15FEFBBF0 /* Pods-Foodafy.debug.xcconfig */,
 				173D38CCC7A9ABAF7766984B /* Pods-Foodafy.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -242,6 +255,8 @@
 				4B67EDC92212C72200E7983F /* LoginTextField.swift in Sources */,
 				4B67EDCF2213591200E7983F /* Food.swift in Sources */,
 				4B67EDB92212B10800E7983F /* LoginViewController.swift in Sources */,
+				4B1F0203221624CB00EF3856 /* UserPhotosTableViewController.swift in Sources */,
+				4B1F02052216252900EF3856 /* PhotoDetailViewController.swift in Sources */,
 				4B67EDB72212B10800E7983F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
