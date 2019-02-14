@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4B67EDB72212B10800E7983F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B67EDB62212B10800E7983F /* AppDelegate.swift */; };
-		4B67EDB92212B10800E7983F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B67EDB82212B10800E7983F /* ViewController.swift */; };
+		4B67EDB92212B10800E7983F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B67EDB82212B10800E7983F /* LoginViewController.swift */; };
 		4B67EDBE2212B10900E7983F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B67EDBD2212B10900E7983F /* Assets.xcassets */; };
 		4B67EDC12212B10900E7983F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B67EDBF2212B10900E7983F /* LaunchScreen.storyboard */; };
 		4B67EDC92212C72200E7983F /* LoginTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B67EDC82212C72200E7983F /* LoginTextField.swift */; };
@@ -16,12 +16,13 @@
 		4B67EDCF2213591200E7983F /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B67EDCE2213591200E7983F /* Food.swift */; };
 		4B67EDD12214760500E7983F /* FoodCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B67EDD02214760500E7983F /* FoodCollectionViewCell.swift */; };
 		4B67EDD32214857400E7983F /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B67EDD22214857400E7983F /* FoodViewController.swift */; };
+		4B67EDD922154CB300E7983F /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B67EDD822154CB300E7983F /* SignupViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4B67EDB32212B10800E7983F /* Foodafy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foodafy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B67EDB62212B10800E7983F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4B67EDB82212B10800E7983F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4B67EDB82212B10800E7983F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		4B67EDBD2212B10900E7983F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B67EDC02212B10900E7983F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B67EDC22212B10900E7983F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -30,6 +31,7 @@
 		4B67EDCE2213591200E7983F /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
 		4B67EDD02214760500E7983F /* FoodCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCollectionViewCell.swift; sourceTree = "<group>"; };
 		4B67EDD22214857400E7983F /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
+		4B67EDD822154CB300E7983F /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,9 +65,10 @@
 			isa = PBXGroup;
 			children = (
 				4B67EDB62212B10800E7983F /* AppDelegate.swift */,
-				4B67EDB82212B10800E7983F /* ViewController.swift */,
+				4B67EDB82212B10800E7983F /* LoginViewController.swift */,
 				4B67EDC82212C72200E7983F /* LoginTextField.swift */,
 				4B67EDCC2212CC1C00E7983F /* Main.storyboard */,
+				4B67EDD822154CB300E7983F /* SignupViewController.swift */,
 				4B67EDD22214857400E7983F /* FoodViewController.swift */,
 				4B67EDD02214760500E7983F /* FoodCollectionViewCell.swift */,
 				4B67EDCE2213591200E7983F /* Food.swift */,
@@ -148,10 +151,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B67EDD32214857400E7983F /* FoodViewController.swift in Sources */,
+				4B67EDD922154CB300E7983F /* SignupViewController.swift in Sources */,
 				4B67EDD12214760500E7983F /* FoodCollectionViewCell.swift in Sources */,
 				4B67EDC92212C72200E7983F /* LoginTextField.swift in Sources */,
 				4B67EDCF2213591200E7983F /* Food.swift in Sources */,
-				4B67EDB92212B10800E7983F /* ViewController.swift in Sources */,
+				4B67EDB92212B10800E7983F /* LoginViewController.swift in Sources */,
 				4B67EDB72212B10800E7983F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

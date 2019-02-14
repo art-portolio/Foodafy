@@ -14,6 +14,7 @@ class FoodCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var foodTitleLabel: UILabel!
     @IBOutlet weak var backgroundColorView: UIView!
     
+    
     var food: Food? {
         didSet {
             self.updateUI()

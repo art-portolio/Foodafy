@@ -11,12 +11,17 @@ import UIKit
 class FoodViewController: UIViewController {
     
     @IBOutlet weak var collectionView: UICollectionView!
+    @IBOutlet weak var profileImageView: UIImageView!
+    
     
     var food = Food.fetchFoodPhotos()
     let cellScaling: CGFloat = 0.6
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.profileImageView.layer.cornerRadius = self.profileImageView.frame.size.width / 2;
+        self.profileImageView.clipsToBounds = true
         
         let screenSize = UIScreen.main.bounds.size
         let cellWidth = floor(screenSize.width * cellScaling)
