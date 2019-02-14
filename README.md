@@ -12,7 +12,7 @@
     </a>
 </p>
 
-Foodafy is an iOS app that serves as a portfolio for a food photographer. Users can sign up and log in to view collections of hi-res food photos in various categories. There is also a feature for users to upload photos as well. Photos are displayed in a horizontal scroll view for a carousel like effect, and photos always center on the screen regardless of user's gestures. I used Google Firebase as my unified backend for user authentication as well as storing and uploading images.
+Foodafy is an iOS app that serves as a portfolio for a food photographer. Users can sign up and log in to view collections of hi-res food photos in various categories. There is also a feature for users to upload photos as well. Photos are displayed in a horizontal scroll view for a carousel like effect, and photos always center on the screen regardless of user's gestures. I used **Firebase** as my unified backend for user authentication as well as storing and uploading images.
 
 **Pitch:** "As an artist I want to be able to show off my work. I'm a photographer and I have a lot of amazing foodie pics I'd like to share with potential clients, but I need a site that is more professional than Instagram in order to do so."
 
