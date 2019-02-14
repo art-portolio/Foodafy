@@ -1,7 +1,7 @@
 # **Foodafy**
 
 <p align="center">
-    <img src="https://i.imgur.com/qiGuM9U.jpg" alt="Foodafy logo" width="487" maxHeight="190" />
+    <img src="https://i.imgur.com/qiGuM9U.jpg" alt="Foodafy logo"/>
 </p>
 
 <p align="center">
