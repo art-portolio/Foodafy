@@ -1,6 +1,10 @@
 # **Foodafy**
 
-<p>
+<p align="center">
+    <img src="https://i.imgur.com/qiGuM9U.jpg" alt="Foodafy logo" width="487" maxHeight="190" />
+</p>
+
+<p align="center">
     <img src="https://img.shields.io/badge/iOS-12.0+-blue.svg" />
     <img src="https://img.shields.io/badge/Swift-4.2-brightgreen.svg" />
     <a href="https://twitter.com/paulcharlesyi">
