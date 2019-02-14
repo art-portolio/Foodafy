@@ -7,18 +7,22 @@
 //
 
 import UIKit
+import Firebase
 
 class LoginViewController: UIViewController {
+    
+    @IBOutlet weak var email: LoginTextField!
+    @IBOutlet weak var password: LoginTextField!
     
     @IBOutlet weak var passwordButton: UIButton!
     
     @IBAction func loginAction(_ sender: Any) {
         
-        Auth.auth().signIn(withEmail: email.text!, password: password.text!) {
-            (user, error) in
-            if error == nil {
+        Auth.auth().signIn(withEmail: email.text!, password: password.text!) { (user, error) in
+            if error == nil{
                 self.performSegue(withIdentifier: "loginToHome", sender: self)
-            } else {
+            }
+            else{
                 let alertController = UIAlertController(title: "Error", message: error?.localizedDescription, preferredStyle: .alert)
                 let defaultAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
                 
@@ -26,8 +30,8 @@ class LoginViewController: UIViewController {
                 self.present(alertController, animated: true, completion: nil)
             }
         }
+        
     }
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()

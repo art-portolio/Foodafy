@@ -136,11 +136,12 @@
                         <outlet property="email" destination="sE4-CX-GsB" id="OmA-JD-puh"/>
                         <outlet property="password" destination="hMa-b1-Vzn" id="bFT-00-FaI"/>
                         <outlet property="passwordConfirm" destination="qFO-hs-ggb" id="Udl-RB-lmW"/>
+                        <segue destination="pim-Cr-tIo" kind="show" id="POG-fk-wAE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Np2-nO-BBp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2385" y="803"/>
+            <point key="canvasLocation" x="2385" y="799"/>
         </scene>
         <!--Start View Controller-->
         <scene sceneID="SRq-cy-Ew2">
@@ -269,7 +270,6 @@
                                 </state>
                                 <connections>
                                     <action selector="loginAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bDU-Ik-Rcb"/>
-                                    <segue destination="pim-Cr-tIo" kind="show" id="X04-Cz-nQe"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XHl-Hw-7si">
@@ -320,7 +320,10 @@
                     </view>
                     <navigationItem key="navigationItem" id="Tx6-3o-PbR"/>
                     <connections>
+                        <outlet property="email" destination="YHk-IY-hIb" id="W7d-ab-xbH"/>
+                        <outlet property="password" destination="VFZ-2Y-3Yk" id="qQP-3E-C3B"/>
                         <outlet property="passwordButton" destination="XHl-Hw-7si" id="R1z-F1-Q4g"/>
+                        <segue destination="pim-Cr-tIo" kind="show" id="6Vs-lv-Xzs"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -487,6 +490,6 @@
         <image name="profileImage" width="720" height="720"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="X04-Cz-nQe"/>
+        <segue reference="POG-fk-wAE"/>
     </inferredMetricsTieBreakers>
 </document>
