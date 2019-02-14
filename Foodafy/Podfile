@@ -7,6 +7,7 @@ target 'Foodafy' do
 
   # Pods for Foodafy
 
-pod 'Firebase/Core'
+	pod 'Firebase/Core'
+	pod 'Firebase/Auth'
 
 end
