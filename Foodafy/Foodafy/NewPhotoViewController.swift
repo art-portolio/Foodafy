@@ -39,3 +39,20 @@ class NewPhotoViewController: UIViewController {
 
 }
 
+extension NewPhotoViewController: UITextViewDelegate {
+    func textViewDidBeginEditing(_ textView: UITextView) {
+        if textView.text == textViewPlaceHolderText {
+            textView.text = ""
+            textView.textColor = .white
+        }
+        textView.becomeFirstResponder()
+    }
+    
+    func textViewDidEndEditing(_ textView: UITextView) {
+        if textView.text = "" {
+            textView.text = textViewPlaceHolderText
+            textView.textColor = .lightGray
+        }
+        textView.resignFirstResponder()
+    }
+}
