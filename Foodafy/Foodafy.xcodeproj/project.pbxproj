@@ -71,6 +71,49 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		4B1F020C22169DE800EF3856 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				4B67EDB82212B10800E7983F /* LoginViewController.swift */,
+				4B67EDDA2215604800E7983F /* StartViewController.swift */,
+				4B67EDC82212C72200E7983F /* LoginTextField.swift */,
+				4B67EDD822154CB300E7983F /* SignupViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		4B1F020D2217193200EF3856 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4B67EDB62212B10800E7983F /* AppDelegate.swift */,
+				4B67EDBD2212B10900E7983F /* Assets.xcassets */,
+				4B67EDC22212B10900E7983F /* Info.plist */,
+				4B1F020822167A4300EF3856 /* GoogleService-Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4B1F020E2217197B00EF3856 /* Main View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4B1F02042216252900EF3856 /* NewPhotoViewController.swift */,
+				4B1F0202221624CB00EF3856 /* UserPhotosTableViewController.swift */,
+				4B1F020A2216978300EF3856 /* UserPhotoTableViewCell.swift */,
+				4B67EDD22214857400E7983F /* FoodViewController.swift */,
+				4B67EDD02214760500E7983F /* FoodCollectionViewCell.swift */,
+			);
+			path = "Main View Controllers";
+			sourceTree = "<group>";
+		};
+		4B1F020F221719A600EF3856 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				4B67EDCC2212CC1C00E7983F /* Main.storyboard */,
+				4B67EDBF2212B10900E7983F /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
 		4B67EDAA2212B10700E7983F = {
 			isa = PBXGroup;
 			children = (
@@ -93,21 +136,10 @@
 			isa = PBXGroup;
 			children = (
 				4B1F020122157A0600EF3856 /* Model */,
-				4B67EDB62212B10800E7983F /* AppDelegate.swift */,
-				4B67EDB82212B10800E7983F /* LoginViewController.swift */,
-				4B67EDDA2215604800E7983F /* StartViewController.swift */,
-				4B67EDC82212C72200E7983F /* LoginTextField.swift */,
-				4B67EDCC2212CC1C00E7983F /* Main.storyboard */,
-				4B1F02042216252900EF3856 /* NewPhotoViewController.swift */,
-				4B1F0202221624CB00EF3856 /* UserPhotosTableViewController.swift */,
-				4B1F020A2216978300EF3856 /* UserPhotoTableViewCell.swift */,
-				4B67EDD822154CB300E7983F /* SignupViewController.swift */,
-				4B67EDD22214857400E7983F /* FoodViewController.swift */,
-				4B67EDD02214760500E7983F /* FoodCollectionViewCell.swift */,
-				4B67EDBD2212B10900E7983F /* Assets.xcassets */,
-				4B67EDBF2212B10900E7983F /* LaunchScreen.storyboard */,
-				4B67EDC22212B10900E7983F /* Info.plist */,
-				4B1F020822167A4300EF3856 /* GoogleService-Info.plist */,
+				4B1F020C22169DE800EF3856 /* Login */,
+				4B1F020E2217197B00EF3856 /* Main View Controllers */,
+				4B1F020D2217193200EF3856 /* Resources */,
+				4B1F020F221719A600EF3856 /* Storyboards */,
 			);
 			path = Foodafy;
 			sourceTree = "<group>";
