@@ -16,17 +16,29 @@ class NewPhotoViewController: UIViewController {
     var textViewPlaceHolderText = "What's on your mind?"
     
     // Camera
-    
+    var imagePicker: UIImagePickerController!
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
+        imagePicker = UIImagePickerController()
+        
+        if UIImagePickerController.isSourceTypeAvailable(.camera) {
+            imagePicker.sourceType = .camera
+            imagePicker.cameraCaptureMode = .photo
+        } else {
+            imagePicker.sourceType = .photoLibrary
+        }
+        
+        self.present(imagePicker, animated: true, completion: nil)
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        captionTextView.text = textViewPlaceHolderText
+        captionTextView.textColor = .lightGray
+        captionTextView.delegate = self
     }
     
     @IBAction func shareDidTap() {
@@ -49,7 +61,7 @@ extension NewPhotoViewController: UITextViewDelegate {
     }
     
     func textViewDidEndEditing(_ textView: UITextView) {
-        if textView.text = "" {
+        if textView.text == "" {
             textView.text = textViewPlaceHolderText
             textView.textColor = .lightGray
         }
