@@ -46,7 +46,11 @@ class NewPhotoViewController: UIViewController {
     }
     
     @IBAction func shareDidTap() {
-        
+        if captionTextView.text != "" && captionTextView.text != textViewPlaceHolderText && takenImage != nil {
+            let newPost = Post(image: takenImage, caption: captionTextView.text)
+            newPost.save()
+            self.dismiss(animated: true, completion: nil)
+        }
     }
     
     @IBAction func cancelDidTap(_ sender: Any) {

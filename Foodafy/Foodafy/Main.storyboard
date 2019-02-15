@@ -286,7 +286,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <action selector="shareDidTap:" destination="11x-co-Fas" eventType="touchUpInside" id="fiw-ak-117"/>
+                                            <action selector="shareDidTap" destination="11x-co-Fas" eventType="touchUpInside" id="7D1-VS-3hf"/>
                                         </connections>
                                     </button>
                                 </subviews>
