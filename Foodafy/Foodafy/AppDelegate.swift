@@ -17,6 +17,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         FirebaseApp.configure()
+        
+        let databaseReference = Database.database().reference()
+        let exampleChildReference =
+            databaseReference.child("example")
+        exampleChildReference.setValue(123)
+        
+        
         return true
     }
 

@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		4B1F0203221624CB00EF3856 /* UserPhotosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1F0202221624CB00EF3856 /* UserPhotosTableViewController.swift */; };
 		4B1F02052216252900EF3856 /* NewPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1F02042216252900EF3856 /* NewPhotoViewController.swift */; };
+		4B1F0207221677F400EF3856 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1F0206221677F400EF3856 /* Post.swift */; };
+		4B1F020922167A4300EF3856 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4B1F020822167A4300EF3856 /* GoogleService-Info.plist */; };
 		4B67EDB72212B10800E7983F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B67EDB62212B10800E7983F /* AppDelegate.swift */; };
 		4B67EDB92212B10800E7983F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B67EDB82212B10800E7983F /* LoginViewController.swift */; };
 		4B67EDBE2212B10900E7983F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B67EDBD2212B10900E7983F /* Assets.xcassets */; };
@@ -20,7 +22,6 @@
 		4B67EDD32214857400E7983F /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B67EDD22214857400E7983F /* FoodViewController.swift */; };
 		4B67EDD922154CB300E7983F /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B67EDD822154CB300E7983F /* SignupViewController.swift */; };
 		4B67EDDB2215604800E7983F /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B67EDDA2215604800E7983F /* StartViewController.swift */; };
-		4B67EDDD2215617500E7983F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4B67EDDC2215617500E7983F /* GoogleService-Info.plist */; };
 		F71A3BD9B3E057044EEEE521 /* Pods_Foodafy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE4ACD16A14E85D9CC7E43D2 /* Pods_Foodafy.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,8 @@
 		173D38CCC7A9ABAF7766984B /* Pods-Foodafy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foodafy.release.xcconfig"; path = "Target Support Files/Pods-Foodafy/Pods-Foodafy.release.xcconfig"; sourceTree = "<group>"; };
 		4B1F0202221624CB00EF3856 /* UserPhotosTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPhotosTableViewController.swift; sourceTree = "<group>"; };
 		4B1F02042216252900EF3856 /* NewPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPhotoViewController.swift; sourceTree = "<group>"; };
+		4B1F0206221677F400EF3856 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		4B1F020822167A4300EF3856 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4B67EDB32212B10800E7983F /* Foodafy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foodafy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B67EDB62212B10800E7983F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B67EDB82212B10800E7983F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -42,7 +45,6 @@
 		4B67EDD22214857400E7983F /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
 		4B67EDD822154CB300E7983F /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		4B67EDDA2215604800E7983F /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
-		4B67EDDC2215617500E7983F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		BE4ACD16A14E85D9CC7E43D2 /* Pods_Foodafy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Foodafy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -62,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				4B67EDCE2213591200E7983F /* Food.swift */,
+				4B1F0206221677F400EF3856 /* Post.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -101,7 +104,7 @@
 				4B67EDBD2212B10900E7983F /* Assets.xcassets */,
 				4B67EDBF2212B10900E7983F /* LaunchScreen.storyboard */,
 				4B67EDC22212B10900E7983F /* Info.plist */,
-				4B67EDDC2215617500E7983F /* GoogleService-Info.plist */,
+				4B1F020822167A4300EF3856 /* GoogleService-Info.plist */,
 			);
 			path = Foodafy;
 			sourceTree = "<group>";
@@ -184,7 +187,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B67EDCD2212CC1C00E7983F /* Main.storyboard in Resources */,
-				4B67EDDD2215617500E7983F /* GoogleService-Info.plist in Resources */,
+				4B1F020922167A4300EF3856 /* GoogleService-Info.plist in Resources */,
 				4B67EDC12212B10900E7983F /* LaunchScreen.storyboard in Resources */,
 				4B67EDBE2212B10900E7983F /* Assets.xcassets in Resources */,
 			);
@@ -253,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B67EDD32214857400E7983F /* FoodViewController.swift in Sources */,
+				4B1F0207221677F400EF3856 /* Post.swift in Sources */,
 				4B67EDDB2215604800E7983F /* StartViewController.swift in Sources */,
 				4B67EDD922154CB300E7983F /* SignupViewController.swift in Sources */,
 				4B67EDD12214760500E7983F /* FoodCollectionViewCell.swift in Sources */,

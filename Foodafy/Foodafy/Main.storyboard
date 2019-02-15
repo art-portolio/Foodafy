@@ -290,7 +290,7 @@
                                         </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" white="0.0" alpha="0.34618471746575341" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.50050834760273977" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstItem="U6Q-NY-f90" firstAttribute="leading" secondItem="Yy4-Jp-J6t" secondAttribute="leading" constant="16" id="4JW-0p-Tce"/>
                                     <constraint firstItem="tim-om-o1f" firstAttribute="top" secondItem="2W9-j7-dJI" secondAttribute="bottom" constant="16" id="8a8-Oz-dkj"/>
