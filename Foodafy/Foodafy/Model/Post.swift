@@ -8,7 +8,6 @@
 
 import UIKit
 import Firebase
-import SwiftyJSON
 
 class Post {
     private var image: UIImage!

@@ -11,6 +11,7 @@
 		4B1F02052216252900EF3856 /* NewPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1F02042216252900EF3856 /* NewPhotoViewController.swift */; };
 		4B1F0207221677F400EF3856 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1F0206221677F400EF3856 /* Post.swift */; };
 		4B1F020922167A4300EF3856 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4B1F020822167A4300EF3856 /* GoogleService-Info.plist */; };
+		4B1F020B2216978300EF3856 /* UserPhotoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1F020A2216978300EF3856 /* UserPhotoTableViewCell.swift */; };
 		4B67EDB72212B10800E7983F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B67EDB62212B10800E7983F /* AppDelegate.swift */; };
 		4B67EDB92212B10800E7983F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B67EDB82212B10800E7983F /* LoginViewController.swift */; };
 		4B67EDBE2212B10900E7983F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B67EDBD2212B10900E7983F /* Assets.xcassets */; };
@@ -32,6 +33,7 @@
 		4B1F02042216252900EF3856 /* NewPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPhotoViewController.swift; sourceTree = "<group>"; };
 		4B1F0206221677F400EF3856 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		4B1F020822167A4300EF3856 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4B1F020A2216978300EF3856 /* UserPhotoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPhotoTableViewCell.swift; sourceTree = "<group>"; };
 		4B67EDB32212B10800E7983F /* Foodafy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foodafy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B67EDB62212B10800E7983F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B67EDB82212B10800E7983F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 				4B67EDCC2212CC1C00E7983F /* Main.storyboard */,
 				4B1F02042216252900EF3856 /* NewPhotoViewController.swift */,
 				4B1F0202221624CB00EF3856 /* UserPhotosTableViewController.swift */,
+				4B1F020A2216978300EF3856 /* UserPhotoTableViewCell.swift */,
 				4B67EDD822154CB300E7983F /* SignupViewController.swift */,
 				4B67EDD22214857400E7983F /* FoodViewController.swift */,
 				4B67EDD02214760500E7983F /* FoodCollectionViewCell.swift */,
@@ -258,6 +261,7 @@
 				4B67EDD32214857400E7983F /* FoodViewController.swift in Sources */,
 				4B1F0207221677F400EF3856 /* Post.swift in Sources */,
 				4B67EDDB2215604800E7983F /* StartViewController.swift in Sources */,
+				4B1F020B2216978300EF3856 /* UserPhotoTableViewCell.swift in Sources */,
 				4B67EDD922154CB300E7983F /* SignupViewController.swift in Sources */,
 				4B67EDD12214760500E7983F /* FoodCollectionViewCell.swift in Sources */,
 				4B67EDC92212C72200E7983F /* LoginTextField.swift in Sources */,
