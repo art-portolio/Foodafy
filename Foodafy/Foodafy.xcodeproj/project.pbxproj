@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4B1F0203221624CB00EF3856 /* UserPhotosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1F0202221624CB00EF3856 /* UserPhotosTableViewController.swift */; };
-		4B1F02052216252900EF3856 /* PhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1F02042216252900EF3856 /* PhotoDetailViewController.swift */; };
+		4B1F02052216252900EF3856 /* NewPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1F02042216252900EF3856 /* NewPhotoViewController.swift */; };
 		4B67EDB72212B10800E7983F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B67EDB62212B10800E7983F /* AppDelegate.swift */; };
 		4B67EDB92212B10800E7983F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B67EDB82212B10800E7983F /* LoginViewController.swift */; };
 		4B67EDBE2212B10900E7983F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B67EDBD2212B10900E7983F /* Assets.xcassets */; };
@@ -28,7 +28,7 @@
 		085441FF2B0389F15FEFBBF0 /* Pods-Foodafy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foodafy.debug.xcconfig"; path = "Target Support Files/Pods-Foodafy/Pods-Foodafy.debug.xcconfig"; sourceTree = "<group>"; };
 		173D38CCC7A9ABAF7766984B /* Pods-Foodafy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foodafy.release.xcconfig"; path = "Target Support Files/Pods-Foodafy/Pods-Foodafy.release.xcconfig"; sourceTree = "<group>"; };
 		4B1F0202221624CB00EF3856 /* UserPhotosTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPhotosTableViewController.swift; sourceTree = "<group>"; };
-		4B1F02042216252900EF3856 /* PhotoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewController.swift; sourceTree = "<group>"; };
+		4B1F02042216252900EF3856 /* NewPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPhotoViewController.swift; sourceTree = "<group>"; };
 		4B67EDB32212B10800E7983F /* Foodafy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foodafy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B67EDB62212B10800E7983F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B67EDB82212B10800E7983F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -93,7 +93,7 @@
 				4B67EDDA2215604800E7983F /* StartViewController.swift */,
 				4B67EDC82212C72200E7983F /* LoginTextField.swift */,
 				4B67EDCC2212CC1C00E7983F /* Main.storyboard */,
-				4B1F02042216252900EF3856 /* PhotoDetailViewController.swift */,
+				4B1F02042216252900EF3856 /* NewPhotoViewController.swift */,
 				4B1F0202221624CB00EF3856 /* UserPhotosTableViewController.swift */,
 				4B67EDD822154CB300E7983F /* SignupViewController.swift */,
 				4B67EDD22214857400E7983F /* FoodViewController.swift */,
@@ -226,6 +226,8 @@
 				"${PODS_ROOT}/Target Support Files/Pods-Foodafy/Pods-Foodafy-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -234,6 +236,8 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,7 +260,7 @@
 				4B67EDCF2213591200E7983F /* Food.swift in Sources */,
 				4B67EDB92212B10800E7983F /* LoginViewController.swift in Sources */,
 				4B1F0203221624CB00EF3856 /* UserPhotosTableViewController.swift in Sources */,
-				4B1F02052216252900EF3856 /* PhotoDetailViewController.swift in Sources */,
+				4B1F02052216252900EF3856 /* NewPhotoViewController.swift in Sources */,
 				4B67EDB72212B10800E7983F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
